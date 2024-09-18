@@ -14,8 +14,8 @@ CAN-BUS is a common industrial bus because of its long travel distance, medium c
 * Standard (11 bit) and extended (29 bit) data and remote frames
 * Two receive buffers with prioritized message storage
 
-Example how init SPI3 on stm32f4x1 cortexm4 (black pill plate) Please only:
-for informational purposes only, thise auto generated in STM32CubeMX!
+Example how init SPI3 on stm32f4x1 cortex m4 (black pill plate):
+For informational purposes only, thise auto generated in STM32CubeMX!
 
 spi.c
 ```
@@ -51,8 +51,7 @@ void MX_SPI3_Init(void)
   /* USER CODE END SPI3_Init 2 */
 
 }
-```
-```
+
 void HAL_SPI_MspInit(SPI_HandleTypeDef* spiHandle)
 {
   GPIO_InitTypeDef GPIO_InitStruct = {0};
@@ -102,4 +101,4 @@ void initMCP2115() {
   ms_mcp2515.setNormalMode();
 }
 ```
-№All functions for working with CAN are similar to [arduino-mcp2515](https://github.com/autowp/arduino-mcp2515).
+№ All functions for working with CAN are similar to [arduino-mcp2515](https://github.com/autowp/arduino-mcp2515).
