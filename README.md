@@ -101,4 +101,4 @@ void initMCP2115() {
   ms_mcp2515.setNormalMode();
 }
 ```
-№ All functions for working with CAN are similar to [arduino-mcp2515](https://github.com/autowp/arduino-mcp2515).
+# All functions for working with CAN are similar to [arduino-mcp2515](https://github.com/autowp/arduino-mcp2515).
